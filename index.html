@@ -15,8 +15,9 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <div id="root">
-        <h1 v-text="welcome" v-bind:class="[textHorizontalAlignment, textVerticalAlignment, textColor, textSize]"></h1>
+    <div id="root" class="d-flex flex-column align-items-center">
+        <h1 v-text="welcome" v-bind:class="[marginSpace, textColor, textSize]"></h1>
+        <img class="rounded-5" v-bind:src="welcomeImage.image" alt="welcomeImage.name">   
     </div>
     
 </body>

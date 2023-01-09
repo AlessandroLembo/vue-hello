@@ -4,11 +4,13 @@ const app = Vue.createApp({
     data(){
         return{
             welcome: 'Benvenuto su Vue.js',
-            textHorizontalAlignment: 'text-center',
-            textVerticalAlignment: 'my-5',
+            marginSpace: 'my-5',
             textColor: 'text-primary',
-            textSize: 'fw-bold'
-
+            textSize: 'fw-bold',
+            welcomeImage: {
+                image: 'welcome.jpg',
+                name: 'welcome'
+            } 
 
         }
     }
